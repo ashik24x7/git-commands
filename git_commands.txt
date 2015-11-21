@@ -20,14 +20,30 @@ $git add * / $git add index.php 						--To add changes file into repository
 
 $git commit -m "Some message here"						--To commit changes
 
-$git log									--To see commit history 
+$git log / $git log --author = "ashik"						--To see commit history 
+
+$git checkout fsd5934								--To back into previous version
 
 $git remote add origin/ashik https://github.com/ashik24x7/git-commands.git	--To add remote repository
  
 $git push origin/ashik master							--To push file into remote repository
 
+$git pull origin/ashik master							--To pull file from remote repository
+
 $git clone https://github.com/ashik24x7/git-commands.git 			--To copy remote repository in local computer
 
 $git remote rm origin/ashikk							--To remove remote repository
+
+$git branch 									--To see branch list
+
+$git branch ashik								--To create new branch
+
+$git checkout ashik								--To changes branch
+
+$git branch -d ashik								--To remove branch
+
+$git merge branch ashik								--To merge any branch with master branch 
+
+
 
 
