@@ -12,6 +12,8 @@ $git init									--To initialize git
 
 touch index.php									--To create any file into repository
 
+$git rm index.txt								--To remove any file into repository
+
 notepad index.php								--To open any file from repositorygit
 
 $git status									--To see git status
