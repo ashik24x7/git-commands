@@ -1,0 +1,33 @@
+$pwd										--To see root directory
+
+$git config --global user.name "Ashikur Rahaman"				--To add author name
+
+$git config --global user.email "ashik@mail.com"				--To add author email
+
+$git config --list								--To see config list
+			
+$ls / $ls -la 									--To see all hidden file
+
+$git init									--To initialize git
+
+touch index.php									--To create any file into repository
+
+notepad index.php								--To open any file from repositorygit
+
+$git status									--To see git status
+
+$git add * / $git add index.php 						--To add changes file into repository
+
+$git commit -m "Some message here"						--To commit changes
+
+$git log									--To see commit history 
+
+$git remote add origin/ashik https://github.com/ashik24x7/git-commands.git	--To add remote repository
+ 
+$git push origin/ashik master							--To push file into remote repository
+
+$git clone https://github.com/ashik24x7/git-commands.git 			--To copy remote repository in local computer
+
+$git remote rm origin/ashikk							--To remove remote repository
+
+
