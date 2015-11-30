@@ -8,6 +8,10 @@ $git config --list								--To see config list
 			
 $ls / $ls -la 									--To see all hidden file
 
+$git config --global --unset-all user.name					--To unset all user.name
+
+$git config --global --replace-all user.name "ashik24x7"			--To replace user.name
+
 $git init									--To initialize git
 
 touch index.php									--To create any file into repository
