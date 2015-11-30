@@ -31,6 +31,8 @@ $git log / $git log --author = "ashik"						--To see commit history
 $git checkout fsd5934								--To back into previous version
 
 $git remote add origin/ashik https://github.com/ashik24x7/git-commands.git	--To add remote repository
+
+$git remote set-url origin https://github.com/ashik24x7/git-commands.git	--To update remote repository url
  
 $git push origin/ashik master							--To push file into remote repository
 
