@@ -26,9 +26,15 @@ $git add * / $git add index.php 						--To add changes file into repository
 
 $git commit -m "Some message here"						--To commit changes
 
-$git log / $git log --author = "ashik"						--To see commit history 
+$git log /git log test.txt / $git log --author = "ashik"			--To see commit history 
 
-$git checkout fsd5934								--To back into previous version
+$git checkout fsd5934 / $git checkout fsd5934 test.txt				--To back into previous version
+
+$git checkout master / $git checkout master -f					--To back into main version
+
+$git show fsd5934								--To see what we did in this commit
+
+$git
 
 $git remote add origin/ashik https://github.com/ashik24x7/git-commands.git	--To add remote repository
 
